@@ -92,4 +92,8 @@
   "Try not. Do, or do not. There is no try". 👨‍💻
 </div>
 
+<div align="center">
+  <img src="https://github.com/vuenar/vuenar/blob/output/github-contribution-grid-snake.svg" />
+</div>
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FFFF&height=120&section=footer"/>
