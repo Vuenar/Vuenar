@@ -75,7 +75,7 @@
 <div align="center">
   <h3>My Programming tools</h3>
 
-  [![My Skills](https://skillicons.dev/icons?i=postman,git,github,powershell,npm,vscode,eclipse)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=postman,github,powershell,npm,vscode,eclipse)](https://skillicons.dev)
 </div>
 
 <br></br>
