@@ -20,7 +20,7 @@
 
 <br></br>
 
-<p align="center"> a
+<p align="center"> 
   <img src="https://github-profile-trophy.vercel.app/?username=vuenar&theme=dracula&no-bg=true&margin-w=5&margin-h=5"/>
 </p>
 
