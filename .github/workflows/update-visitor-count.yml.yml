@@ -2,7 +2,7 @@ name: Update Visitor Count Badge
 
 on:
   schedule:
-    - cron: '0 * * * *' # Executa a cada hora
+    - cron: '0 * * * *' # a cada hora
   workflow_dispatch:
 
 jobs:
@@ -13,24 +13,21 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - - name: Get visitor count from CountAPI
-      id: get_count
+    - name: Get visitor count from CountAPI and set output
       run: |
         response=$(curl -s https://api.countapi.xyz/hit/Vuenar.github.io/visits)
         echo "Response: $response"
         count=$(echo $response | jq '.value')
-        echo "count=$count" >> $GITHUB_OUTPUT
-
+        echo "VISIT_COUNT=$count" >> $GITHUB_ENV
 
     - name: Update SVG file
       run: |
-        count=${{ steps.get_count.outputs.count }}
-        echo "Updating SVG with count: $count"
+        echo "Updating SVG with count: $VISIT_COUNT"
         cat > ./assets/visitors.svg <<EOF
 <svg xmlns="http://www.w3.org/2000/svg" width="160" height="32">
   <rect width="160" height="32" fill="#0d1117" rx="6" />
   <text x="10" y="21" fill="#c9d1d9" font-size="14" font-family="Segoe UI, sans-serif">👁️ Visitantes:</text>
-  <text x="120" y="21" fill="#58a6ff" font-size="14" font-family="Segoe UI, sans-serif">${count}</text>
+  <text x="120" y="21" fill="#58a6ff" font-size="14" font-family="Segoe UI, sans-serif">${VISIT_COUNT}</text>
 </svg>
 EOF
 
@@ -39,5 +36,5 @@ EOF
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add ./assets/visitors.svg
-        git commit -m "Update visitor count badge [skip ci]" || echo "No changes to commit"
+        git diff --quiet && echo "No changes to commit" || git commit -m "Update visitor count badge [skip ci]"
         git push
