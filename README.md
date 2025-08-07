@@ -8,7 +8,7 @@
     <b>Visitors</b>
   </p>  
   <p align="center">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=Vuenar.Vuenar" alt="Contador de visitas"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Visitantes&query=value&url=https://api.countapi.xyz/hit/Vuenar.github.io/visits" alt="Contador de visitas"/>
   </p> 
   <br>
 </div>
