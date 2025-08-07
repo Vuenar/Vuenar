@@ -8,9 +8,7 @@
     <b>Visitors</b>
   </p>  
   <p align="center">
-    
-![Visitantes](https://visitor-badge.glitch.me/badge?page_id=Vuenar.Vuenar&left_color=gray&right_color=blue)
-
+    <img src="https://count.getloli.com/get/@Vuenar?theme=gelbooru" alt="Contador de visitas"/>
   </p> 
   <br>
 </div>
