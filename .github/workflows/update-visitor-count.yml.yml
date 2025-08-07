@@ -10,24 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-    - name: Get visitor count from CountAPI and set output
+    - name: Get visitor count from CountAPI
+      id: get_count
       run: |
         response=$(curl -s https://api.countapi.xyz/hit/Vuenar.github.io/visits)
         echo "Response: $response"
         count=$(echo $response | jq '.value')
-        echo "VISIT_COUNT=$count" >> $GITHUB_ENV
+        echo "count=$count" >> $GITHUB_OUTPUT
+
+    - name: Debug: Show visitor count
+      run: echo "Visitor count is ${{ steps.get_count.outputs.count }}"
 
     - name: Update SVG file
       run: |
-        echo "Updating SVG with count: $VISIT_COUNT"
+        echo "Updating SVG with count: ${{ steps.get_count.outputs.count }}"
         cat > ./assets/visitors.svg <<EOF
 <svg xmlns="http://www.w3.org/2000/svg" width="160" height="32">
   <rect width="160" height="32" fill="#0d1117" rx="6" />
   <text x="10" y="21" fill="#c9d1d9" font-size="14" font-family="Segoe UI, sans-serif">👁️ Visitantes:</text>
-  <text x="120" y="21" fill="#58a6ff" font-size="14" font-family="Segoe UI, sans-serif">${VISIT_COUNT}</text>
+  <text x="120" y="21" fill="#58a6ff" font-size="14" font-family="Segoe UI, sans-serif">${{ steps.get_count.outputs.count }}</text>
 </svg>
 EOF
 
@@ -36,5 +39,5 @@ EOF
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add ./assets/visitors.svg
-        git diff --quiet && echo "No changes to commit" || git commit -m "Update visitor count badge [skip ci]"
+        git commit -m "Update visitor count badge [skip ci]" || echo "No changes to commit"
         git push
