@@ -8,7 +8,7 @@
     <b>Visitors</b>
   </p>  
   <p align="center">
-    <img src="https://count.getloli.com/get/@Vuenar?theme=gelbooru" alt="Contador de visitas"/>
+    <img src="https://count.getloli.com/@Vuenar?theme=gelbooru" alt="Contador de visitas"/>
   </p> 
   <br>
 </div>
