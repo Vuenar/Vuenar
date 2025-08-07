@@ -8,7 +8,7 @@
     <b>Visitors</b>
   </p>  
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Vuenar/Vuenar/main/visitors.svg" alt="Contador de visitas"/>
+    <img src="https://raw.githubusercontent.com/Vuenar/Vuenar/main/visitors.svg" alt="Visitantes"/>
   </p> 
   <br>
 </div>
