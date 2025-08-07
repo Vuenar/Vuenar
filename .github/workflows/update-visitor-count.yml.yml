@@ -1,0 +1,42 @@
+name: Update Visitor Count Badge
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Executa a cada hora
+  workflow_dispatch:
+
+jobs:
+  update-visitor-count:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Get visitor count from CountAPI
+      id: get_count
+      run: |
+        response=$(curl -s https://api.countapi.xyz/get/Vuenar.github.io/visits)
+        echo "Response: $response"
+        count=$(echo $response | jq '.value')
+        echo "count=$count" >> $GITHUB_OUTPUT
+
+    - name: Update SVG file
+      run: |
+        count=${{ steps.get_count.outputs.count }}
+        echo "Updating SVG with count: $count"
+        cat > ./assets/visitors.svg <<EOF
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="32">
+  <rect width="160" height="32" fill="#0d1117" rx="6" />
+  <text x="10" y="21" fill="#c9d1d9" font-size="14" font-family="Segoe UI, sans-serif">👁️ Visitantes:</text>
+  <text x="120" y="21" fill="#58a6ff" font-size="14" font-family="Segoe UI, sans-serif">${count}</text>
+</svg>
+EOF
+
+    - name: Commit and push SVG update
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add ./assets/visitors.svg
+        git commit -m "Update visitor count badge [skip ci]" || echo "No changes to commit"
+        git push
