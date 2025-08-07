@@ -8,7 +8,13 @@
     <b>Visitors</b>
   </p>  
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Vuenar/Vuenar/main/assets/visitors.svg" alt="Visitantes: "/>
+    
+   <svg xmlns="http://www.w3.org/2000/svg" width="160" height="32">
+  <rect width="160" height="32" fill="#0d1117" rx="6" />
+  <text x="10" y="21" fill="#c9d1d9" font-size="14" font-family="Segoe UI, sans-serif">👁️ Visitantes:</text>
+  <text x="120" y="21" fill="#58a6ff" font-size="14" font-family="Segoe UI, sans-serif">1234</text>
+  </svg>
+    
   </p> 
   <br>
 </div>
