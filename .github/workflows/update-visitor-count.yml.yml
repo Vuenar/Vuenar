@@ -16,7 +16,7 @@ jobs:
     - name: Get visitor count from CountAPI
       id: get_count
       run: |
-        response=$(curl -s https://api.countapi.xyz/get/Vuenar.github.io/visits)
+        response=$(curl -s https://api.countapi.xyz/hit/Vuenar.github.io/visits)
         echo "Response: $response"
         count=$(echo $response | jq '.value')
         echo "count=$count" >> $GITHUB_OUTPUT
