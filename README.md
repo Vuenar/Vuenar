@@ -95,7 +95,3 @@
 </div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FFFF&height=120&section=footer"/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Vuenar/Vuenar/output/snake.svg" alt="Snake animation" />
-</div>
