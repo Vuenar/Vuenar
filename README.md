@@ -8,7 +8,9 @@
     <b>Visitors</b>
   </p>  
   <p align="center">
-    <img align="center" src="https://profile-counter.glitch.me/{vuenar}/count.svg" />
+    
+![Visitantes](https://visitor-badge.glitch.me/badge?page_id=Vuenar.Vuenar&left_color=gray&right_color=blue)
+
   </p> 
   <br>
 </div>
