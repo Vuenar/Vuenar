@@ -8,8 +8,7 @@
     <b>Visitors</b>
   </p>  
   <p align="center">
-    <img src="https://api.countapi.xyz/hit/Vuenar.github.io/visits" alt="Visitantes">
-
+    <img src="https://raw.githubusercontent.com/Vuenar/Vuenar/main/assets/visitors.svg" alt="Contador de visitantes"/>
   </p> 
   <br>
 </div>
