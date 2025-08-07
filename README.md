@@ -96,6 +96,8 @@
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FFFF&height=120&section=footer"/>
 
-### 🐍 Snake dos meus commits
+<div>
+  
+[![snake gif](https://github.com/Vuenar/Vuenar/blob/output/github-contribution-grid-snake.svg)
 
-![snake gif](https://github.com/Vuenar/Vuenar/blob/output/github-contribution-grid-snake.svg)
+</div>
