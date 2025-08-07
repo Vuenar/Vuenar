@@ -8,7 +8,7 @@
     <b>Visitors</b>
   </p>  
   <p align="center">
-    <img src="https://count.getloli.com/@Vuenar?theme=minecraft" alt="Contador de visitas"/>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=Vuenar.Vuenar" alt="Contador de visitas"/>
   </p> 
   <br>
 </div>
