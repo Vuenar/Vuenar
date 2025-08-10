@@ -1,11 +1,12 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FFFF&height=120&section=header"/>
 
 <!-- Destaque da Badge -->
-<h2 align="center">🏅 Conquista Alura + Oracle Next Education</h2>
+<h2 align="center">🏅 Alura + Oracle Next Education Achievement</h2>
 <p align="center">
-  <i>Reconhecimento pela minha participação e dedicação no programa ONE, desenvolvido pela Oracle e Alura.<br>
-  Um marco importante na minha jornada de aprendizado e evolução como desenvolvedor.</i>
+  <i>Recognition for my participation and dedication in the ONE program, developed by Oracle and Alura.<br>
+  An important milestone in my learning journey and growth as a developer.</i>
 </p>
+
 
 <p align="center">
   <img src="https://github.com/Vuenar/Vuenar/blob/main/assets/myBadge.png?raw=true" alt="Badge Oracle Next Education" width="250" />
@@ -13,7 +14,7 @@
 
 
 <!-- Apresentação -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=35&center=true&vCenter=true&width=1000&lines=Olá,+meu+nome+é+Uelison+Couto;Tenho+26+anos;Estudo+Análise+e+Desenvolvimento+de+Sistemas;Eu+sou+Brasileiro;Seja+bem-vindo!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Uelison+Couto;I+am+26+years+old;I+study+Systems+Analysis+and+Development;I+am+Brazilian;Welcome!+:%29)](https://git.io/typing-svg)
 
 ---
 
