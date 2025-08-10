@@ -76,7 +76,7 @@
 
 <div align="center">
   <h3>My Programming tools</h3>
-  <img src="https://skillicons.dev/icons?i=postman,github,powershell,npm,vscode,eclipse" />
+  <img src="https://skillicons.dev/icons?i=postman,git,github,powershell,npm,vscode,eclipse" />
 </div>
 
 
