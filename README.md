@@ -58,6 +58,8 @@
 <!-- Skills -->
 <h2 align="center">⚙️ Languages & Tools</h2>
 
+---
+
 <div align="center">
   <h3>Main skills → Front-end</h3>
   <img src="https://skillicons.dev/icons?i=html,css,react" />
