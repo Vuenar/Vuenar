@@ -13,7 +13,7 @@
 
 
 <!-- Apresentação -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Uelison+Couto;I'm+26+years+old;I+am+a+Systems+Analysis+and+Development+Student;I'm+from+Brazil;The+future+is+today;Be+Welcome!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=35&center=true&vCenter=true&width=1000&lines=Olá,+meu+nome+é+Uelison+Couto;Tenho+26+anos;Sou+estudante+de+Análise+e+Desenvolvimento+de+Sistemas;Sou+do+Brasil;O+futuro+é+agora;Seja+bem-vindo!+:%29)](https://git.io/typing-svg)
 
 ---
 
@@ -71,7 +71,7 @@
 
 <div align="center">
   <h3>Main skills → Back-end</h3>
-  <img src="https://skillicons.dev/icons?i=java,nodejs,spring,postgresql,mysql,mongodb" />
+  <img src="https://skillicons.dev/icons?i=java,javascript,nodejs,spring,postgresql,mysql,mongodb" />
 </div>
 
 <div align="center">
