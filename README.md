@@ -14,6 +14,7 @@
   </p> 
   <br>
 </div>
+<img src="https://github.com/SEU-USUARIO/SEU-REPOSITORIO/blob/main/assets/badge-one.png?raw=true" alt="Badge Oracle Next Education" width="200" />
 
 <div align="center"> 
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=vuenar&show_icons=true&count_private=true&hide_border=true&title_color=00FFFF&icon_color=ffffff&text_color=00FFFF&bg_color=0d1117" alt="Uelison Couto github stats" />
