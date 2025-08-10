@@ -57,7 +57,6 @@
 
 <!-- Skills -->
 <h2 align="center">⚙️ Languages & Tools</h2>
-
 ---
 
 <div align="center">
