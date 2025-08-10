@@ -31,8 +31,6 @@
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vuenar&layout=compact&hide_border=true&title_color=00FFFF&text_color=00FFFF&bg_color=0d1117" />
 </div>
 
----
-
 <!-- Troféus -->
 <p align="center"> 
   <img src="https://github-profile-trophy.vercel.app/?username=vuenar&theme=dracula&no-bg=true&margin-w=5&margin-h=5"/>
