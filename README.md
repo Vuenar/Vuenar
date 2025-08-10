@@ -81,7 +81,6 @@
   <img src="https://skillicons.dev/icons?i=postman,github,powershell,npm,vscode,eclipse" />
 </div>
 
----
 
 <!-- GIF -->
 <div align="center">
