@@ -23,7 +23,6 @@
   <img src="https://profile-counter.deno.dev/Vuenar/count.svg" alt="Visitor Count" />
 </div>
 
----
 
 <!-- Estatísticas -->
 <div align="center"> 
