@@ -1,9 +1,16 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00FFFF&height=120&section=header"/>
 
-<!-- Badge de destaque -->
+<!-- Destaque da Badge -->
+<h2 align="center">🏅 Conquista Alura + Oracle Next Education</h2>
+<p align="center">
+  <i>Reconhecimento pela minha participação e dedicação no programa ONE, desenvolvido pela Oracle e Alura.<br>
+  Um marco importante na minha jornada de aprendizado e evolução como desenvolvedor.</i>
+</p>
+
 <p align="center">
   <img src="https://github.com/Vuenar/Vuenar/blob/main/assets/myBadge.png?raw=true" alt="Badge Oracle Next Education" width="250" />
 </p>
+
 
 <!-- Apresentação -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Uelison+Couto;I'm+26+years+old;I+am+a+Systems+Analysis+and+Development+Student;I'm+from+Brazil;The+future+is+today;Be+Welcome!+:%29)](https://git.io/typing-svg)
