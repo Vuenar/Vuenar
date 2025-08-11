@@ -14,7 +14,7 @@
 
 
 <!-- Apresentação -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Uelison+Couto;I+am+26+years+old;I+study+Systems+Analysis+and+Development;I+am+Brazilian;Welcome!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00FFFF&size=35&center=true&vCenter=true&width=1000&lines=Hello,+my+name+is+Uelison+Couto;I+am+27+years+old;I+study+Systems+Analysis+and+Development;I+am+Brazilian;Welcome!+:%29)](https://git.io/typing-svg)
 
 ---
 
