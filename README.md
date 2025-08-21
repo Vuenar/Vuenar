@@ -61,12 +61,12 @@
 
 <div align="center">
   <h3>Main skills → Front-end</h3>
-  <img src="https://skillicons.dev/icons?i=html,css,react" />
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,react" />
 </div>
 
 <div align="center">
   <h3>Main skills → Back-end</h3>
-  <img src="https://skillicons.dev/icons?i=java,javascript,nodejs,spring,postgresql,mysql,mongodb" />
+  <img src="https://skillicons.dev/icons?i=java,nodejs,spring,postgresql,mysql,mongodb" />
 </div>
 
 <div align="center">
